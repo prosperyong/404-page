@@ -51,5 +51,17 @@ body {
         background: #333;
         padding: 1em;
         border: none;
+        margin-bottom: 13em;
+    }
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    color: #BDBDBD;
+    text-align: center;
+    a {
+        text-decoration: none;
+        color: #BDBDBD;
     }
 }
