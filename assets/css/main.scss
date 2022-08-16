@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono&display=swap');
+body {
+    margin-left: 1em;
+}
+
 .head {
     color: #333333;
     font-family: 'Inconsolata';
@@ -15,4 +19,37 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.page {
+    h6 {
+        font-family: Space Mono;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+        text-align: left;
+    }
+    p {
+        font-family: Space Mono;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+        margin-top: -3em;
+        text-align: left;
+    }
+    button {
+        color: #fff;
+        font-family: Space Mono;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: -0.035em;
+        text-align: left;
+        text-transform: capitalize;
+        background: #333;
+        padding: 1em;
+        border: none;
+    }
 }
